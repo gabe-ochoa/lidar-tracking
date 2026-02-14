@@ -1,0 +1,17 @@
+[project]
+name = "lidar-tracker"
+version = "0.1.0"
+description = "Track moving objects from 2D lidar scans"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
